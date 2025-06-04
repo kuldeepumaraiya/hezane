@@ -3,4 +3,12 @@
 {% block content %}
 <h1>Welcome to Hezane – Your Personal Blog Platform</h1>
 <p>This is the home page.</p>
+
+{% for post in posts %}
+<article>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+</article>
+{% endfor %}
+
 {% endblock %}
