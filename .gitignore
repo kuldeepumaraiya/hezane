@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-posts.db
-env/
-venv/
-*.sqlite3
